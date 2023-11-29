@@ -23,6 +23,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
 nav ul {
@@ -43,6 +47,7 @@ nav a {
 }
 
 .content-section {
+  margin-top: 2em;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -60,7 +65,7 @@ nav a {
   color: var(--text-color);
   text-align: center;
   line-height: 150px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 footer {
